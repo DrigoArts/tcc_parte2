@@ -1,0 +1,46 @@
+{
+    "name": "TCC",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#85DAFF",
+        "#FF2121",
+        "#FF93C4",
+        "#FF8135",
+        "#FFF609",
+        "#428F4B",
+        "#AF1D1D",
+        "#003FAD",
+        "#FFFFFF",
+        "#46AF73",
+        "#A4839F",
+        "#854DA3",
+        "#E5CDC4",
+        "#91463d",
+        "#000000"
+    ]
+}
