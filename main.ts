@@ -3,6 +3,11 @@ controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
         heroi.vy = -250
     }
 })
+controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (heroi.vy == 0) {
+        heroi.vy = 100
+    }
+})
 let heroi: Sprite = null
 namespace userconfig {
     export const ARCADE_SCREEN_WIDTH = 320;
